@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f8f3ed; /* Soft pastel beige */
+  color: #7a5230;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8d7da; /* Pastel pink */
+}
+
+.navbar-brand {
+  font-family: 'Georgia', sans-serif;
+  font-size: 1.5rem;
+  color: #4b3c69; /* Deep purple */
+}
+
+.navbar-nav .nav-link {
+  color: #4b3c69; /* Deep purple */
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #b79cd6; /* Light lavender */
+}
+
+/* Hero Section */
+header {
+  background-color: #f4e1d2; /* Soft cream pastel */
+  color: #7a5230; /* Deep brown */
+  padding: 50px 0;
+}
+
+header h1 {
+  font-family: 'Georgia', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+/* Recipe Cards */
+.card {
+  border: none;
+  background-color: #fff9f4; /* Off-white pastel */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #7a5230; /* Deep brown */
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #5a5a5a;
+}
+
+.card img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #e29972; /* Soft peach */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #d28865; /* Slightly darker peach */
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff9f4; /* Off-white pastel */
+  padding: 40px;
+  border-radius: 8px;
+}
+
+#contact h2 {
+  font-family: 'Georgia', sans-serif;
+  font-size: 2rem;
+  color: #4b3c69; /* Deep purple */
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #e2d8c8;
+}
+
+button[type="submit"] {
+  background-color: #e29972; /* Soft peach */
+  border: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #d28865; /* Slightly darker peach */
+}
+
+/* Footer */
+footer {
+  background-color: #4b3c69; /* Deep purple */
+  color: #f4e1d2; /* Soft cream */
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: #d2c6ea; /* Light pastel lavender */
+}
+
+footer a:hover {
+  color: #b79cd6; /* Light lavender */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.85rem;
+  }
+}

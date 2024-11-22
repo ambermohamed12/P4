@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baking Company</title>
+    <!-- Bootstrap CSS -->
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="#">Baking Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recipes">Recipes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="educationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="educationDropdown">
+                            <li><a class="dropdown-item" href="#bakingBasics">Order</a></li>
+                            <li><a class="dropdown-item" href="#advancedTips">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-light py-5 text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to Baking Company</h1>
+            <p class="lead">Discover recipes, tips, and tricks for baking delicious treats!</p>
+        </div>
+    </header>
+
+    <!-- Recipe Cards Section -->
+    <section id="recipes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Popular Recipes</h2>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images1/cake.jpg.jpg" class="card-img-top" alt="Recipe 1" style="width: 100%; max-height: 200px; object-fit: cover;">>
+                        <div class="card-body">
+                            <h5 class="card-title">Birthday Cake</h5>
+                            <p class="card-text">A timeless recipe for rich, moist cake.</p>
+                            <a href="#" class="btn btn-primary">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images1/choccookies.jpg.jpg" class="card-img-top" alt="Recipe 2" style="width: 100%; max-height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Chip Cookies</h5>
+                            <p class="card-text">Learn how to make perfectly chewy, yummy cookies.</p>
+                            <a href="#" class="btn btn-primary">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images1/cupcakes.jpg.jpg" class="card-img-top" alt="Recipe 3" style="width: 100%; max-height: 200px; object-fit: cover;">>
+                        <div class="card-body">
+                            <h5 class="card-title">Cupcakes</h5>
+                            <p class="card-text">Learn how to make soft, fresh, airy cupcakes!</p>
+                            <a href="#" class="btn btn-primary">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p class="mb-0">&copy; 2024 Baking Company, Amber Mohamed | <a href="#" class="text-light">Terms of Use</a> | <a href="#" class="text-light">Privacy Policy</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
